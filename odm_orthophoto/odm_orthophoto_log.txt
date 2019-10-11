@@ -1,0 +1,46 @@
+/code/build/bin/odm_orthophoto_log.txt
+
+Arguments given
+-inputFile
+/code/odm_texturing_25d/odm_textured_model_geo.obj
+-logFile
+/code/odm_orthophoto/odm_orthophoto_log.txt
+-outputFile
+/code/odm_orthophoto/odm_orthophoto.png
+-resolution
+20.0
+-outputCornerFile
+/code/odm_orthophoto/odm_orthophoto_corners.txt
+
+Reading textured mesh from: /code/odm_texturing_25d/odm_textured_model_geo.obj
+Log file path was set to: /code/odm_orthophoto/odm_orthophoto_log.txt
+Writing output to: /code/odm_orthophoto/odm_orthophoto.png
+Resolution count was set to: 20pixels/meter
+Writing corners to: /code/odm_orthophoto/odm_orthophoto_corners.txt
+
+Reading mesh file...
+.. mesh file read.
+
+Number of faces in the model 189770
+Set boundary to contain entire model.
+Local boundary points:
+Point 1: -50.2645 -46.2669
+Point 2: -50.2645 48.5521
+Point 3: 43.8947 48.5521
+Point 4: 43.8947 -46.2669
+
+Ortho photo bounds x : -50.2645 -> 43.8947
+Ortho photo bounds y : -46.2669 -> 48.5521
+Ortho photo area : 8928.08m2
+Ortho photo resolution, width x height : 1884x1897
+Translating and scaling mesh...
+.. mesh translated and scaled.
+
+Rendering the ortho photo...
+Material 0 rendered.
+Material 1 rendered.
+...ortho photo rendered
+
+Writing ortho photo to /code/odm_orthophoto/odm_orthophoto.png
+Writing corner coordinates to /code/odm_orthophoto/odm_orthophoto_corners.txt
+Orthophoto generation done.
